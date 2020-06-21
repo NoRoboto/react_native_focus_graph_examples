@@ -14,9 +14,7 @@ import ModalHandler from './src/modalHandler';
 
 const App: () => React$Node = () => {
   return (
-    <View style={{backgroundColor: 'red', flex: 1}}>
       <ModalHandler />
-    </View>
   );
 };
 

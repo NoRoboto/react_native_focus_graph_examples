@@ -1,9 +1,8 @@
 import React from 'react'
-import { Modal } from 'react-native'
 import { TVRCHandler } from 'react-native-focus-graph';
 import TVModal from "./modal";
 
-const ModalHandler = ({children, showModal}) => {
+const ModalHandler = () => {
 
   const graphModel = {
     vertexList: ['A', 'B', 'C'],
